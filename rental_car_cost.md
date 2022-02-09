@@ -16,14 +16,6 @@ Every day you rent the car costs $40. If you rent the car for 7 or more days, yo
 Write a code that gives out the total amount for different days(d).
 
 
-### Examples
-```
-min_max([1,2,3,4,5])   == [1,5]
-min_max([2334454,5])   == [5, 2334454]
-min_max([1])           == [1, 1]
-```
-
-
 ---
 
 
