@@ -1,0 +1,48 @@
+# CodeWars Python Solutions
+
+---
+
+## The highest profit wins!
+
+
+
+### Task
+After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight for you and your girlfriend and try to leave all the mess behind you.
+
+You will need a rental car in order for you to get around in your vacation. The manager of the car rental makes you some good offers.
+
+Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. Alternatively, if you rent the car for 3 or more days, you get $20 off your total.
+
+Write a code that gives out the total amount for different days(d).
+
+
+### Examples
+```
+min_max([1,2,3,4,5])   == [1,5]
+min_max([2334454,5])   == [5, 2334454]
+min_max([1])           == [1, 1]
+```
+
+
+---
+
+
+### Solution
+
+
+```python
+def rental_car_cost(d):
+    if d < 3:
+        return d*40
+    if d < 7:
+        return d*40-20
+    else:
+        return d*40-50
+        
+```
+
+---
+### Comment
+
+
+[See on CodeWars.com](https://www.codewars.com/users/ITRonin)
