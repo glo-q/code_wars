@@ -1,0 +1,36 @@
+# CodeWars Python Solutions
+
+---
+
+## Is this a triangle?
+
+
+
+### Task
+Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case.
+
+(In this case, all triangles must have surface greater than 0 to be accepted).
+
+---
+
+
+### Solution
+
+
+```python
+def is_triangle(a, b, c):
+    if a <= 0 or b <= 0 or c <= 0:
+        return False
+    longest = max(a,b,c)
+    total = a + b + c
+    if longest >= total - longest:
+        return False
+    return True
+        
+```
+
+---
+### Comment
+
+
+[See on CodeWars.com](https://www.codewars.com/users/ITRonin)
