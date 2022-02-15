@@ -19,20 +19,12 @@ String will never be empty and you do not need to account for different data typ
 
 
 ```python
-def create_phone_number(n):
-    for x in range(len(n)):
-        return f"({n[0]}{n[1]}{n[2]}) {n[3]}{n[4]}{n[5]}-{n[6]}{n[7]}{n[8]}{n[9]}"
-        
+def find_short(s):
+    return min([len(x) for x in s.split()])
 ```
 
 ---
 ### Comment
-
-Well...
-```python
-def find_short(s):
-    return min([len(x) for x in s.split()])
-```
 
 
 
