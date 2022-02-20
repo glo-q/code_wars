@@ -1,0 +1,43 @@
+# CodeWars Python Solutions
+
+---
+
+## Basic Mathematical Operations
+
+
+### Description:
+
+Your task is to create a function that does four basic mathematical operations.
+
+The function should take three arguments - operation(string/char), value1(number), value2(number).
+The function should return result of numbers after applying the chosen operation.
+
+### Examples:
+
+```
+('+', 4, 7) --> 11
+('-', 15, 18) --> -3
+('*', 5, 5) --> 25
+('/', 49, 7) --> 7
+```
+
+### Solution
+
+
+```python
+def basic_op(operator, v1, v2):
+    switch={
+        "+": v1 + v2,
+        "-": v1 - v2,
+        "*": v1 * v2,
+        "/": v1 / v2
+    }
+    return switch.get(operator)
+```
+
+---
+### Comment
+
+
+
+[See on CodeWars.com](https://www.codewars.com/users/ITRonin)
