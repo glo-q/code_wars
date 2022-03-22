@@ -22,7 +22,5 @@ def sum_digits(number):
 ---
 ### Comment
 
-I had to pass to stupid test in some way ;)
-
 
 [See on CodeWars.com](https://www.codewars.com/users/ITRonin)
